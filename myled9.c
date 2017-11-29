@@ -38,7 +38,7 @@ static int __init init_mod(void)
 {
   int retval;
 
-  gpio_base = ioremap_nocache(0x3f200000, 0xA0);
+  gpio_base = ioremap_nocache(0x3f200000, 0xC0);
 
   const u32 led = 25;
   const u32 index = led/10;
