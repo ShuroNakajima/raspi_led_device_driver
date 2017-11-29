@@ -1,0 +1,1 @@
+cmd_/home/shuro/RasPiMouse/src/raspi_led_device_driver/myled.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o /home/shuro/RasPiMouse/src/raspi_led_device_driver/myled.ko /home/shuro/RasPiMouse/src/raspi_led_device_driver/myled.o /home/shuro/RasPiMouse/src/raspi_led_device_driver/myled.mod.o
