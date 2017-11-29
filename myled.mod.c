@@ -17,20 +17,24 @@ __attribute__((section(".gnu.linkonce.this_module"))) = {
 static const struct modversion_info ____versions[]
 __used
 __attribute__((section("__versions"))) = {
-	{ 0x3d6976bf, __VMLINUX_SYMBOL_STR(module_layout) },
+	{ 0xf26587cd, __VMLINUX_SYMBOL_STR(module_layout) },
 	{ 0x7485e15e, __VMLINUX_SYMBOL_STR(unregister_chrdev_region) },
-	{ 0x8b8dd7ac, __VMLINUX_SYMBOL_STR(class_destroy) },
-	{ 0x2ec01f71, __VMLINUX_SYMBOL_STR(device_destroy) },
-	{ 0x27c400b1, __VMLINUX_SYMBOL_STR(cdev_del) },
-	{ 0x829cafc9, __VMLINUX_SYMBOL_STR(device_create) },
-	{ 0xf6185bb8, __VMLINUX_SYMBOL_STR(__class_create) },
-	{ 0xa9921b8, __VMLINUX_SYMBOL_STR(cdev_add) },
-	{ 0x9041f1bb, __VMLINUX_SYMBOL_STR(cdev_init) },
+	{ 0xd9c1fe2e, __VMLINUX_SYMBOL_STR(class_destroy) },
+	{ 0xbc78be97, __VMLINUX_SYMBOL_STR(device_destroy) },
+	{ 0xbf0027b1, __VMLINUX_SYMBOL_STR(cdev_del) },
+	{ 0x18a20ba4, __VMLINUX_SYMBOL_STR(device_create) },
+	{ 0xaa1a5ef3, __VMLINUX_SYMBOL_STR(__class_create) },
+	{ 0x8a16a2ec, __VMLINUX_SYMBOL_STR(cdev_add) },
+	{ 0x57ee566c, __VMLINUX_SYMBOL_STR(cdev_init) },
 	{ 0x29537c9e, __VMLINUX_SYMBOL_STR(alloc_chrdev_region) },
+	{ 0x79c5a9f0, __VMLINUX_SYMBOL_STR(ioremap) },
+	{ 0x2e5810c6, __VMLINUX_SYMBOL_STR(__aeabi_unwind_cpp_pr1) },
 	{ 0xdb7305a1, __VMLINUX_SYMBOL_STR(__stack_chk_fail) },
 	{ 0x27e1a049, __VMLINUX_SYMBOL_STR(printk) },
-	{ 0x4f6b400b, __VMLINUX_SYMBOL_STR(_copy_from_user) },
-	{ 0xbdfb6dbb, __VMLINUX_SYMBOL_STR(__fentry__) },
+	{ 0xfa2a45e, __VMLINUX_SYMBOL_STR(__memzero) },
+	{ 0x28cc25db, __VMLINUX_SYMBOL_STR(arm_copy_from_user) },
+	{ 0x8f678b07, __VMLINUX_SYMBOL_STR(__stack_chk_guard) },
+	{ 0xb1ad28e0, __VMLINUX_SYMBOL_STR(__gnu_mcount_nc) },
 };
 
 static const char __module_depends[]
@@ -39,4 +43,4 @@ __attribute__((section(".modinfo"))) =
 "depends=";
 
 
-MODULE_INFO(srcversion, "85F0226E9A3C6626D66A46A");
+MODULE_INFO(srcversion, "D5B377C70DF8E132AF15CB9");
